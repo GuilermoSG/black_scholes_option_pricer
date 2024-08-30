@@ -18,7 +18,7 @@ st.title('Black-Scholes Option Pricer by Guillermo Sanchez Garcia')
 S = st.number_input('Stock Price (S)', value=100.0)
 K = st.number_input('Strike Price (K)', value=100.0)
 T = st.number_input('Time to Expiry (T) in years', value=1.0)
-r = st.number_input('Risk-Free Interest Rate (r)', value=0.05)
+r = st.number_input('Risk-Free Interest Rate (r, decimal)', value=0.05)
 sigma = st.number_input('Volatility (σ)', value=0.2)
 
 if st.button('Calculate'):
